@@ -86,4 +86,40 @@
         app:srcCompat="@drawable/atendimento"
         tools:layout_editor_absoluteY="515dp" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="#00FFFFFF"
+        android:text="Acessar exames"
+        android:textColor="#008080"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="250dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="8dp"
+        android:background="#00FFFFFF"
+        android:text="Agendamento  Online"
+        android:textColor="#008080"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton3"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="#00FFFFFF"
+        android:text="Atendimento"
+        android:textColor="#008080"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton4"
+        tools:layout_editor_absoluteY="542dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
